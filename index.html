@@ -1,15 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<title>Recuperar contraseña</title>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departamento de Informática y Automática - Universidad de Salamanca</title>
 <style>
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    /*background-color: #f4f4f4;*/
+    /*color: #333;*/
     background-image: "https://mrwallpaper.com/images/hd/4k-tech-computer-circuit-5iu60h6elmqhwukm.jpg";
 }
 
@@ -131,26 +133,31 @@ a:hover {
     margin: 5px 0;
 }
 
-</style>
+</style>    
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+
 <header>
     <h1>Departamento de Informática y Automática</h1>
     <h2>Universidad de Salamanca</h2>
 </header>
 
 <nav>
-    <a href="index.html">Inicio</a>
+    <a href="registrate.html">Registro</a>
     <a href="logueate.html">Inicio de Sesión</a>
     <a href="quienessomos.html">Quiénes Somos</a>
 </nav>
-<h1>Olvidé mi contraseña</h1>
-<p>Introduce tu correo para recibir una nueva contraseña</p>
+
 <div class="container">
-<form action="cgi-bin/olvidocont.cgi" method="post">
-<label for="nombre_usuario">Correo</label>
-<input type="email" id="email" name="email" required>
-<input type="submit" value="Enviar">
-</form>
+    <h2>Bienvenidos al Departamento de Informática y Automática USAL</h2>
+    <p>En nuestro departamento, nos dedicamos a la enseñanza e investigación en el campo de la informática y las tecnologías de la información.</p>
+    
+    <section class="contact-link">
+        <h3>Envíanos un correo</h3>
+        <p>Si tienes alguna pregunta o comentario, no dudes en <a href="mailto:nafnimda@gmail.com">enviarnos un correo electrónico</a>.</p>
+    </section>
 </div>
+
 </body>
+</html>
