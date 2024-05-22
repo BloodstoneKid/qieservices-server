@@ -137,7 +137,7 @@ a:hover {
         <h1>Bienvenidx de vuelta, $nombre_usuario</h1>
         <p>Accede a tu blog personal, correo electrónico o la plataforma Moodle</p>
         <p>Puedes acceder a tus ficheros personales y al fichero público de apuntes desde tu cliente SFTP preferido</p>
-       	<a href=\"verblog.cgi?nombre_usuario=$usuario\">Mi blog</a>
+       	<a href=\"verblog.cgi?nombre_usuario=$nombre_usuario\">Mi blog</a>
 	<a href=\"../correo\">Correo</a>
 	<a href=\"../moodle\">Moodle</a>
 	 <h2>Modificar datos</h2>

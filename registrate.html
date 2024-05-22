@@ -146,17 +146,17 @@ a:hover {
 <div class="container">
 <form action="cgi-bin/registro.cgi" method="post">
 <label for="nombre">Nombre</label>
-<input type="text" id="nombre" name="nombre" required>
+<input type="text" id="nombre" name="nombre" maxlength="20" required>
 <label for="apellido">Apellido</label>
-<input type="text" id="apellido" name="apellido" required>
+<input type="text" id="apellido" name="apellido" maxlength="20" required>
 <label for="nombre_usuario">Nombre de usuario</label>
-<input type="text" id="nombre_usuario" name="nombre_usuario" required>
+<input type="text" id="nombre_usuario" name="nombre_usuario" maxlength="10" required>
 <label for="contrasena">Contraseña</label>
-<input type="password" id="contrasena" name="contrasena" required>
+<input type="password" id="contrasena" name="contrasena" maxlength="10" required>
 <label for="email">Correo electronico</label>
-<input type="email" id="email" name="email" required>
+<input type="email" id="email" name="email" maxlength="50" required>
 <label for="correo_postal">Direccion de correo postal</label>
-<input type="text" id="correo_postal" name="correo_postal" required>
+<input type="text" id="correo_postal" name="correo_postal" maxlength="50" required>
 <label for="alumno">Alumno</label>
 <input type="radio" id="alumno" name="tipo_usuario">
 <label for="profesor">Profesor</label>
